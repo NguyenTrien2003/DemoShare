@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Kiểm tra xem Facebook có cài đặt trên thiết bị không
         intent.setPackage("com.facebook.katana");
-        
+
 
         // Nếu Facebook không có cài đặt, mở trình duyệt
         if (intent.resolveActivity(getPackageManager()) != null) {
